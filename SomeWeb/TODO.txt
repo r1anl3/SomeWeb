@@ -1,1 +1,7 @@
-﻿
+﻿- SomeDecribe: home page
+- SomeFinance: finacial managerment
+- SomeScan: qr scan
+- SomeWhere: map and weather
+- SomeCalendar: event on this day
+- SomeHelp: how to use
+- SomeThing: use beecost 
