@@ -8,4 +8,5 @@
 
 On doing:
 
+- Create database.
 - Write HTML file.
