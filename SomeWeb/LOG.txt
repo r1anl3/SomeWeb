@@ -1,2 +1,3 @@
-﻿11/07/2023: Add category model 
-11/07/2023: Success connecting to SQL Server.
+﻿11/07/2023: Add category model.
+11/07/2023: Success connecting to SQL Server. 
+12/07/2023: Add DBcontext.
