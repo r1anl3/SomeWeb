@@ -6,7 +6,6 @@
 - SomeHelp: how to use
 - SomeThing: use beecost 
 
-On doing:
+Tasks:
 
-- Create database.
 - Write HTML file.
