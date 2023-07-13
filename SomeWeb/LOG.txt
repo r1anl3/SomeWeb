@@ -1,4 +1,5 @@
 ﻿11/07/2023: Add category model.
 11/07/2023: Success connecting to SQL Server. 
 12/07/2023: Add DBcontext.
-12/07/2023: Success adding DbContext. 
+12/07/2023: Success adding DbContext.
+13/07/2023: Setup Program.cs to use DBcontext.
