@@ -7,4 +7,5 @@
 14/07/2023: Check database. 
 * 14/07/2023: dotnet tool install --global dotnet-ef (to install dotnet ef in VS CODE)
             dotnet ef migrations add AddCategoryToDatabase (to add migrations to database)
-14/07/2023: Success adding migrations. 
+14/07/2023: Success adding migrations.
+14/07/2023: Fixed ConnectionStrings to successfully create database.
