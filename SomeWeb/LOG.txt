@@ -9,4 +9,3 @@
             dotnet ef migrations add AddCategoryToDatabase (to add migrations to database)
 14/07/2023: Success adding migrations.
 14/07/2023: Fixed ConnectionStrings to successfully create database.
-15/07/2023: Create Category Controller.
