@@ -11,3 +11,4 @@
 14/07/2023: Fixed ConnectionStrings to successfully create database.
 15/07/2023: Create Category Controller.
 15/07/2023: Create Controller snippet for MVC.
+16/07/2023: Retrieve all Categories.
