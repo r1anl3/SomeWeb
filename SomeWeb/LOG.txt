@@ -14,3 +14,4 @@
 16/07/2023: Retrieve all Categories.
 16/07/2023: Success retrieving data from database.
 18/07/2023: Update theme and layout.
+18/07/2023: Nothing changed.
