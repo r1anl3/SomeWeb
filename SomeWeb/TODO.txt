@@ -8,4 +8,5 @@
 
 Tasks:
 
+- Learn basic HTML, CSS, JS.
 - Write HTML file.
