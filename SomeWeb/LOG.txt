@@ -4,3 +4,15 @@
 12/07/2023: Success adding DbContext.
 13/07/2023: Setup Program.cs to use DBcontext.
 13/07/2023: Success setting up Program.cs to use DBcontext.
+14/07/2023: Check database. 
+* 14/07/2023: dotnet tool install --global dotnet-ef (to install dotnet ef in VS CODE)
+            dotnet ef migrations add AddCategoryToDatabase (to add migrations to database)
+14/07/2023: Success adding migrations.
+14/07/2023: Fixed ConnectionStrings to successfully create database.
+15/07/2023: Create Category Controller.
+15/07/2023: Create Controller snippet for MVC.
+16/07/2023: Retrieve all Categories.
+16/07/2023: Success retrieving data from database.
+18/07/2023: Update theme and layout.
+18/07/2023: Nothing changed.
+19/07/2023: Still learning HTML.
