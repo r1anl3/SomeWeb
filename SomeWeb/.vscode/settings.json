@@ -1,3 +1,6 @@
 {
-    "dotnet.defaultSolution": "SomeWeb.sln"
+    "dotnet.defaultSolution": "SomeWeb.sln",
+    "[aspnetcorerazor]": {
+        "editor.formatOnSave": true
+    }
 }
