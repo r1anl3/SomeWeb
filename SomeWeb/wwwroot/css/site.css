@@ -16,8 +16,13 @@ html {
 body {
   margin-bottom: 60px;
   color: deeppink;
+  font-family: 'Courier New', Courier, monospace;
 }
 
 h1 {
   color: brown;
+}
+
+.italic {
+  background-color: aliceblue;
 }
