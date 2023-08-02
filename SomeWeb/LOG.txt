@@ -19,4 +19,5 @@
 20/07/2023: Nothing changed.
 21/07/2023: Working with CSS file along with HTML file.
 21/07/2023: Having a better look for my website.
-28/07/2023: Learn HTML in appropiate
+28/07/2023: Learn HTML in appropriate way.
+03/08/2023: Fix navbar format.
