@@ -4,11 +4,11 @@
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>@ViewData["Title"] - SomeWeb</title>
-    <link rel="stylesheet" href="~/lib/bootstrap/dist/css/bootstrap.min.css" />
     <link rel="stylesheet" href="~/css/Theme.css">
     <link rel="stylesheet" href="~/css/site.css" asp-append-version="true" />
     <link rel="stylesheet" href="~/SomeWeb.styles.css" asp-append-version="true" />
     <link rel="shortcut icon" href="~/somelogo-tprr.png" type="image/x-icon">
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
 </head>
 <body>
     <header>
@@ -21,11 +21,16 @@
                 <div class="collapse navbar-collapse" id="navbarColor01">
                 <ul class="navbar-nav me-auto">
                     <li class="nav-item">
-                        <a class="nav-link text-dark" asp-area="" asp-controller="Home" asp-action="Index">Home</a>
+                        <a class="nav-link text-dark" asp-area="" asp-controller="Category" asp-action="Index">
+                            <i class='bx bx-wallet' >Wallet</i>
+                        </a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link text-dark" asp-area="" asp-controller="Category" asp-action="Index">Category</a>
+                        <a class="nav-link text-dark" asp-area="" asp-controller="Category" asp-action="Analyse">
+                            <i class='bx bx-analyse' >Analyse</i>
+                        </a>
                     </li>
+                </ul>
                     @*
                     <li class="nav-item">
                     <a class="nav-link" href="#">Pricing</a>
