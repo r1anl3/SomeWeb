@@ -8,14 +8,14 @@ html {
   }
 }
 
-html {
-  position: relative;
-  min-height: 100%;
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
 }
 
 body {
   margin-bottom: 60px;
-  color: deeppink;
   font-family: 'Courier New', Courier, monospace;
 }
 
