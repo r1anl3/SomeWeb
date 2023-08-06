@@ -20,3 +20,6 @@
 21/07/2023: Working with CSS file along with HTML file.
 21/07/2023: Having a better look for my website.
 23/07/2023: Working with site.css file.
+28/07/2023: Learn HTML in appropiate.
+03/08/2023: Success fixing layout.
+06/08/2023: Create new table.

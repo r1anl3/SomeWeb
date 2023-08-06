@@ -12,7 +12,12 @@ public class CategoryController : Controller
     }
     public IActionResult Index()
     {
-        var objCategoryList = _db.Categories.ToList();
+        //var objCategoryList = _db.Categories.ToList();
+        return View();
+    }
+
+    public IActionResult Analyse()
+    {
         return View();
     }
 }
