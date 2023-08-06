@@ -17,3 +17,8 @@ html {
 body {
   margin-bottom: 60px;
 }
+
+th, td {
+  border: 1px solid black;
+  border-radius: 10px;
+}
