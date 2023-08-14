@@ -16,7 +16,6 @@ html {
 
 body {
   margin-bottom: 60px;
-  background-color: #78c2ad;
   color: black;
 }
 
@@ -24,5 +23,4 @@ th, td {
   border: 1px solid black;
   border-radius: 10px;
   text-align: center;
-  color: bisque;
 }

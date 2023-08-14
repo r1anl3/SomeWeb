@@ -25,3 +25,4 @@
 06/08/2023: Create new table.
 07/08/2023: Change website color, change bootstrap.
 13/08/2023: Delete bootstrap min theme.
+14/08/2023: Remove background color, remove table color, add new web logo.

@@ -4,7 +4,6 @@
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>@ViewData["Title"] - SomeWeb</title>
-    <link rel="stylesheet" href="~/css/Theme.css">
     <link rel="stylesheet" href="~/css/site.css" asp-append-version="true" />
     <link rel="stylesheet" href="~/SomeWeb.styles.css" asp-append-version="true" />
     <link rel="shortcut icon" href="~/somelogo-tprr.png" type="image/x-icon">
@@ -14,7 +13,10 @@
     <header>
         <nav class="navbar navbar-expand-lg bg-primary" data-bs-theme="dark">
             <div class="container-fluid">
-                <a class="navbar-brand" asp-area="" asp-controller="Home" asp-action="Index">SomeWeb</a>
+                <a class="navbar-brand" asp-area="" asp-controller="Home" asp-action="Index">
+                    <img src="~/somelogo-tprr.png" alt="SomeWeb logo">
+                    <h2>Some<span class="danger">Web</span></h2>
+                </a>
                 <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarColor01" aria-controls="navbarColor01" aria-expanded="false" aria-label="Toggle navigation">
                 <span class="navbar-toggler-icon"></span>
                 </button>
