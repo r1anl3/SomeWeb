@@ -1,6 +1,4 @@
-html {
-  font-size: 14px;
-}
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@800&display=swap');
 
 @media (min-width: 768px) {
   html {
@@ -12,11 +10,27 @@ html {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
+  font-family: 'Poppins', sans-serif;
 }
 
-body {
-  margin-bottom: 60px;
-  color: black;
+.navbar {
+  font-size: 1.5rem;
+  position: fixed;
+  top: 0;
+  left: 0;
+  background-color: whitesmoke;
+  width: 230px;
+}
+
+.logo {
+  text-align: center;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+a {
+  text-decoration: none;
 }
 
 th, td {
