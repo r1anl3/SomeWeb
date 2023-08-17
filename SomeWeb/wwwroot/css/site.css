@@ -7,12 +7,23 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
-  text-decoration: none;
   color: black;
 }
 
+.bx {
+  font-size: 1.7rem;
+}
+
+a {
+  text-decoration: none;
+}
+
+li {
+  list-style: none;
+}
+
 html {
-  font-size: 14px;
+  overflow-x: hidden;
 }
 
 body {
@@ -22,7 +33,7 @@ body {
   font-size: 0.88rem;
 }
 
-.navbar {
+.sidebar {
   font-size: 1.5rem;
   position: fixed;
   top: 0;
@@ -32,7 +43,7 @@ body {
   height: 100%;
 }
 
-.navbar-brand {
+.logo {
   text-align: center;
   font-size: 30px;
   display: block;
