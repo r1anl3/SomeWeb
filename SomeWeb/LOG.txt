@@ -30,3 +30,4 @@
 15/08/2023: Fix navbar, comment footer.
 15/08/2023: Create main class, seperate main and navbar.
 15/08/2023: Remove button.
+17/08/2023: Add body style.
