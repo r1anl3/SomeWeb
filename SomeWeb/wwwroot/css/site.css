@@ -3,6 +3,21 @@
 @media (min-width: 768px) {
 }
 
+:root {
+  --light: #f6f6f9;
+  --primary: #1976D2;
+  --light-primary: #CFE8FF;
+  --grey: #eee;
+  --dark-grey: #AAAAAA;
+  --dark: #363949;
+  --danger: #D32F2F;
+--light-danger: #FECDD3;
+  --warning: #FBC02D;
+  --light-warning: #FFF2C6;
+  --success: #388E3C;
+  --light-success: #BBF7D0;
+}
+
 * {
   margin: 0;
   padding: 0;
@@ -27,10 +42,8 @@ html {
 }
 
 body {
-  width: 100vw;
-  height: 100vh;
+  background: var(--grey);
   font-family: 'Poppins', sans-serif;
-  font-size: 0.88rem;
 }
 
 .sidebar {
