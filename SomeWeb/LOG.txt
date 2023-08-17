@@ -32,3 +32,4 @@
 15/08/2023: Remove button.
 17/08/2023: Add body style.
 17/08/2023: Add home navigation.
+17/08/2023: Remove commented section, add logout, reformat Analyse.cshtml.
