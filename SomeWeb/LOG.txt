@@ -36,3 +36,4 @@
 17/08/2023: Replace all default nav class with custom class.
 17/08/2023: Add root, remove body width height.
 18/08/2023: Add small web logo, more css.
+18/08/2023: Add settings, more css.
