@@ -37,3 +37,4 @@
 17/08/2023: Add root, remove body width height.
 18/08/2023: Add small web logo, more css.
 18/08/2023: Add settings, more css.
+18/08/2023: Remove nav item class, center item in li tag.

@@ -22,6 +22,7 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
+  font-family: 'Poppins', sans-serif;
 }
 
 .bx {
@@ -42,7 +43,6 @@ html {
 
 body {
   background: var(--grey);
-  font-family: 'Poppins', sans-serif;
 }
 
 .sidebar {
@@ -66,7 +66,7 @@ body {
   width: 60px;
 }
 
-.logo {
+.sidebar .logo {
   font-size: 24px;
   font-weight: 700;
   height: 56px;
@@ -77,7 +77,7 @@ body {
   box-sizing: content-box;
 }
 
-.logo .bx {
+.sidebar .logo .bx {
   min-width: 60px;
   display: flex;
   justify-content: center;
@@ -137,6 +137,7 @@ body {
   white-space: nowrap;
   overflow-x: hidden;
   transition: all 0.3s ease;
+  align-items: center;
 }
 
 .sidebar .side-menu li.active a{
@@ -146,6 +147,13 @@ body {
 .sidebar.close .side-menu li a{
   width: calc(48px - (4px * 2));
   transition: all 0.3s ease;
+}
+
+.sidebar .side-menu li a .bx{
+  min-width: calc(60px - ((4px + 6px) * 2));
+  display: flex;
+  font-size: 1.6rem;
+  margin-left: 5px;
 }
 .main {
   margin-left: 240px;
