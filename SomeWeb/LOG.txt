@@ -35,3 +35,4 @@
 17/08/2023: Remove commented section, add logout, reformat Analyse.cshtml.
 17/08/2023: Replace all default nav class with custom class.
 17/08/2023: Add root, remove body width height.
+18/08/2023: Add small web logo, more css.
