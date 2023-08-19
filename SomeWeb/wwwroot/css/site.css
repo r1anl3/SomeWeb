@@ -1,4 +1,5 @@
-@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@800&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800&display=swap');
+
 
 @media (min-width: 768px) {
 }
@@ -56,6 +57,7 @@ body {
   overflow-x: hidden;
   scrollbar-width: none;
   transition: all 0.3s ease;
+  font-weight: 700;
 }
 
 .sidebar::-webkit-scrollbar {
@@ -153,10 +155,15 @@ body {
   min-width: calc(60px - ((4px + 6px) * 2));
   display: flex;
   font-size: 1.6rem;
-  margin-left: 5px;
+  justify-content: center;
 }
+
+.sidebar .side-menu li a.logout {
+  color: var(--danger);
+}
+
 .main {
-  margin-left: 240px;
+  margin-left: 230px;
 }
 
 th, td {

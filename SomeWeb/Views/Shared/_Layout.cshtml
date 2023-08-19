@@ -11,42 +11,59 @@
 </head>
 <body>
     <header>
-        <nav class="navbar navbar-expand-lg bg-primary" data-bs-theme="light">
-            <div class="sidebar">
-                <a class="logo" asp-controller="Home" asp-action="Index">
-                    <i class='bx bxs-game'></i>SomeWeb
-                </a>
-                <ul class="side-menu">
-                    <li class="active">
-                        <a asp-controller="Home" asp-action="Index">
-                            <i class='bx bx-home-smile'></i>Home
-                        </a>
-                    </li>
-                    <li class="">
-                        <a asp-controller="Category" asp-action="Index">
-                            <i class='bx bx-wallet'></i>Wallet
-                        </a>
-                    </li>
-                    <li class="">
-                        <a asp-controller="Category" asp-action="Analyse">
-                            <i class='bx bx-analyse'></i>Analyse
-                        </a>
-                    </li>
-                    <li class="">
-                        <a asp-controller="" asp-action="">
-                            <i class='bx bx-cog'></i>Settings
-                        </a>
-                    </li>
-                </ul>
-                <ul class="side-menu">
-                    <li class="">
-                        <a class="logout" asp-controller="" asp-action="">
-                            <i class='bx bx-log-out'></i>Logout
-                        </a>
-                    </li>
-                </ul>
-            </div>
-        </nav>
+        <!-- Sidebar -->
+        <div class="sidebar">
+            <a class="logo" asp-controller="Home" asp-action="Index">
+                <i class='bx bxs-game'></i>SomeWeb
+            </a>
+            <ul class="side-menu">
+                <li class="active">
+                    <a asp-controller="Home" asp-action="Index">
+                        <i class='bx bx-home-smile'></i>Home
+                    </a>
+                </li>
+                <li class="">
+                    <a asp-controller="Category" asp-action="Index">
+                        <i class='bx bx-wallet'></i>Wallet
+                    </a>
+                </li>
+                <li class="">
+                    <a asp-controller="Category" asp-action="Analyse">
+                        <i class='bx bx-analyse'></i>Analyse
+                    </a>
+                </li>
+                <li class="">
+                    <a asp-controller="" asp-action="">
+                        <i class='bx bx-cog'></i>Settings
+                    </a>
+                </li>
+            </ul>
+            <ul class="side-menu">
+                <li class="">
+                    <a class="logout" asp-controller="" asp-action="">
+                        <i class='bx bx-log-out'></i>Logout
+                    </a>
+                </li>
+            </ul>
+        </div>
+        <!-- End of Sidebar -->
+        <!-- Main content -->
+        <div class="content">
+            <!-- Navigation -->
+            <nav>
+                <i class='bx bx-menu'></i>
+                <form action="#">
+                    <div class="form-input">
+                        <input type="search"> 
+                        <button class="search-btn" type="submit">
+                            <i class='bx bx-search'></i>
+                        </button>
+                    </div>
+                </form>
+            </nav>
+            <!-- End of Navigation -->
+        </div>
+        <!-- End of Main content -->
     </header>
     <div class="container">
         <main role="main" class="pb-3">
