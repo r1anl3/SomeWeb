@@ -11,10 +11,12 @@
 </head>
 <body>
     <header>
+
         <!-- Sidebar -->
+
         <div class="sidebar">
             <a class="logo" asp-controller="Home" asp-action="Index">
-                <i class='bx bxs-game'></i>SomeWeb
+                <i class='bx bxs-game'></i>Some <span>Web</span> 
             </a>
             <ul class="side-menu">
                 <li class="active">
@@ -29,7 +31,7 @@
                 </li>
                 <li class="">
                     <a asp-controller="Category" asp-action="Analyse">
-                        <i class='bx bx-analyse'></i>Analyse
+                        <i class='bx bx-analyse'></i>Analytics
                     </a>
                 </li>
                 <li class="">
@@ -46,23 +48,40 @@
                 </li>
             </ul>
         </div>
+
         <!-- End of Sidebar -->
+
         <!-- Main content -->
+
         <div class="content">
+
             <!-- Navigation -->
+
             <nav>
                 <i class='bx bx-menu'></i>
                 <form action="#">
                     <div class="form-input">
-                        <input type="search"> 
+                        <input type="search" placeholder="Search..."> 
                         <button class="search-btn" type="submit">
                             <i class='bx bx-search'></i>
                         </button>
                     </div>
                 </form>
+                <input type="checkbox" id="theme-toggle" hidden> 
+                <label for="theme-toggle" class="theme-toggle"></label>
+                <a asp-controller="" asp-action="">
+                    <i class='bx bx-bell'></i>
+                    <span class="count">14</span>
+                </a>
+                <a class="profile" asp-controller="" asp-action="">
+                    <img src="~/sample-profile.png" alt="use-profile">
+                </a>
             </nav>
+
             <!-- End of Navigation -->
+
         </div>
+
         <!-- End of Main content -->
     </header>
     <div class="container">

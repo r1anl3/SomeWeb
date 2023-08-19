@@ -39,3 +39,4 @@
 18/08/2023: Add settings, more css.
 18/08/2023: Remove nav item class, center item in li tag.
 19/08/2023: Change font import, add logout style, add main content.
+19/08/2023: Change logo color, add search bar, add profile, change view html tag to div tag.

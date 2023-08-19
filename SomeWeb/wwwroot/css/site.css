@@ -12,11 +12,13 @@
   --dark-grey: #AAAAAA;
   --dark: #363949;
   --danger: #D32F2F;
---light-danger: #FECDD3;
+  --light-danger: #FECDD3;
   --warning: #FBC02D;
   --light-warning: #FFF2C6;
   --success: #388E3C;
   --light-success: #BBF7D0;
+  --bs-primary: #78c2ad;
+  --bs-secondary: #f3969a;
 }
 
 * {
@@ -74,9 +76,13 @@ body {
   height: 56px;
   display: flex;
   align-items: center;
-  color: var(--primary);
+  color: var(--bs-primary);
   padding-bottom: 20px;
   box-sizing: content-box;
+}
+
+.sidebar .logo span {
+  color: var(--bs-secondary);
 }
 
 .sidebar .logo .bx {
@@ -162,10 +168,88 @@ body {
   color: var(--danger);
 }
 
-.main {
-  margin-left: 230px;
+.content {
+  left: 230px;
+  position: relative;
+  width: calc(100% - 230px);
+  transition: all 0.3s ease;
 }
 
+.sidebar.close~.content {
+  left: 60px;
+  width: calc(100% - 60px);
+}
+
+.content nav {
+  height: 56px;
+  background: var(--light);
+  padding: 0 24px 0 0;
+  display: flex;
+  align-items: center;
+  grid-gap: 24px;
+  position: sticky;
+  top: 0;
+  left: 0;
+  z-index: 1000;
+}
+
+.content nav::before {
+  content: "";
+  position: absolute;
+  width: 40px;
+  height: 40px;
+  bottom: -40px;
+  left: 0;
+  border-radius: 50%;
+  box-shadow: -20px -20px 0 var(--light);
+}
+
+.content nav a {
+  color: var(--dark);
+}
+
+.content nav .bx.bx-menu {
+  cursor: pointer;
+  color: var(--dark);
+}
+
+.content nav form {
+  max-width: 400px;
+  width: 100%;
+  margin-right: auto;
+}
+
+.content nav form .form-input {
+  display: flex;
+  align-items: center;
+  height: 36px;
+}
+
+.content nav form .form-input input {
+  flex-grow: 1;
+  padding: 0 16px;
+  height: 100%;
+  width: 100%;
+  border: none;
+  background: var(--grey);
+  border-radius: 36px 0 0 36px;
+  outline: none;
+  color: var(--dark);
+}
+
+.content nav form .form-input button {
+  width: 80px;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: var(--bs-primary);
+  color: var(--light);
+  font-size: 18px;
+  border: none;
+  outline: none;
+  border-radius: 0 36px 36px 0;
+}
 th, td {
   border: 1px solid black;
   border-radius: 10px;
