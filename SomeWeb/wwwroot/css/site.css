@@ -20,6 +20,12 @@
   --bs-primary: #78c2ad;
   --bs-secondary: #f3969a;
   --bs-danger: #ff7851;
+  --faded-jade: #407a74;
+  --alexandrite: #5a8e76;
+  --flame-scarlet: #cc222b;
+  --coral-pink: #f58479;
+  --dodgeroll-gold: #fa9e0b;
+  --corn-harvest: #ffc946;
 }
 
 * {
@@ -322,7 +328,48 @@ body {
   flex-wrap: wrap;
 }
 
+.content main .header .add-new {
+  height: 36px;
+  padding: 0 16px;
+  border-radius: 36px;
+  background: var(--bs-secondary);
+  color: var(--light);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  grid-gap: 10px;
+  font-weight: 500;
+}
+
+.content main .dashboard {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(240px, 1fr));
+  grid-gap: 24px;
+}
+
+.content main .dashboard li {
+  padding: 24px;
+  background: var(--light);
+  display: flex;
+  border-radius: 20px;
+  align-items: center;
+  grid-gap: 24px;
+  cursor: pointer;
+}
+
 .content main .insights {
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(240px, 1fr));
+  grid-gap: 24px;
+  margin-top: 36px;
+}
+
+.content main .insights li {
+  padding: 24px;
+  background: var(--light);
+  display: flex;
+  border-radius: 20px;
+  align-items: center;
+  grid-gap: 24px;
+  cursor: pointer;
 }
