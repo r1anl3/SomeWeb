@@ -41,3 +41,4 @@
 19/08/2023: Change font import, add logout style, add main content.
 19/08/2023: Change logo color, add search bar, add profile, change view html tag to div tag.
 19/08/2023: Change notify, theme toggle, profile style.
+22/08/2023: Change wallet site structure and style.
