@@ -20,12 +20,6 @@
   --bs-primary: #78c2ad;
   --bs-secondary: #f3969a;
   --bs-danger: #ff7851;
-  --faded-jade: #407a74;
-  --alexandrite: #5a8e76;
-  --flame-scarlet: #cc222b;
-  --coral-pink: #f58479;
-  --dodgeroll-gold: #fa9e0b;
-  --corn-harvest: #ffc946;
 }
 
 * {
@@ -372,4 +366,14 @@ body {
   align-items: center;
   grid-gap: 24px;
   cursor: pointer;
+}
+
+.content main .insights li .fa-jar {
+  width: 80px;
+  height: 80px;
+  border-radius: 10px;
+  font-size: 36px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
