@@ -11,12 +11,16 @@
   --grey: #eee;
   --dark-grey: #AAAAAA;
   --dark: #363949;
-  --danger: #D32F2F;
-  --light-danger: #FECDD3;
+  --danger: #d32f2fab;
+  --light-danger: #fecdd3ef;
   --warning: #FBC02D;
   --light-warning: #FFF2C6;
   --success: #388E3C;
   --light-success: #BBF7D0;
+  --orange: #fa6800c9;
+  --light-orange: #fed5b8ae;
+  --pink: #F472D0;
+  --light-pink: #FCD8F2;
   --bs-primary: #78c2ad;
   --bs-secondary: #f3969a;
   --bs-danger: #ff7851;
@@ -376,4 +380,34 @@ body {
   display: flex;
   align-items: center;
   justify-content: center;
+}
+
+.content main .insights li:nth-child(1) .fa-jar {
+  background: var(--light-primary);
+  color: var(--primary);
+}
+
+.content main .insights li:nth-child(2) .fa-jar {
+  background: var(--light-success);
+  color: var(--success);
+}
+
+.content main .insights li:nth-child(3) .fa-jar {
+  background: var(--light-warning);
+  color: var(--warning);
+}
+
+.content main .insights li:nth-child(4) .fa-jar {
+  background: var(--light-orange);
+  color: var(--orange);
+}
+
+.content main .insights li:nth-child(5) .fa-jar {
+  background: var(--light-danger);
+  color: var(--danger);
+}
+
+.content main .insights li:nth-child(6) .fa-jar {
+  background: var(--light-pink);
+  color: var(--pink);
 }

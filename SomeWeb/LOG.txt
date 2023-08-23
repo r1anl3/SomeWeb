@@ -45,3 +45,4 @@
 22/08/2023: Change all views structure and style.
 22/08/2023: Add new button, add jar id, change home page, add 6 jar color.
 22/08/2023: Add jar icon from FontAwesome, remove 6 jar color.
+23/08/2023: Remove jar id, add jar color.
