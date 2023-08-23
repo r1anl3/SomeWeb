@@ -411,3 +411,13 @@ body {
   background: var(--light-pink);
   color: var(--pink);
 }
+
+.content main .insights li .infor h3 {
+  font-size: 24px;
+  font-weight: 600;
+  color: var(--dark);
+}
+
+.content main .insights li .infor p {
+  color: var(--dark);
+}
