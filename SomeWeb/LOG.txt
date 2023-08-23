@@ -36,3 +36,13 @@
 17/08/2023: Replace all default nav class with custom class.
 17/08/2023: Add root, remove body width height.
 18/08/2023: Add small web logo, more css.
+18/08/2023: Add settings, more css.
+18/08/2023: Remove nav item class, center item in li tag.
+19/08/2023: Change font import, add logout style, add main content.
+19/08/2023: Change logo color, add search bar, add profile, change view html tag to div tag.
+19/08/2023: Change notify, theme toggle, profile style.
+22/08/2023: Change wallet site structure and style.
+22/08/2023: Change all views structure and style.
+22/08/2023: Add new button, add jar id, change home page, add 6 jar color.
+22/08/2023: Add jar icon from FontAwesome, remove 6 jar color.
+23/08/2023: Remove jar id, add jar color.

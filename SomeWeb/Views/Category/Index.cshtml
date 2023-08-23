@@ -1,18 +1,66 @@
-﻿
-@{
+﻿@{
     ViewData["Title"] = "Your Wallet";
 }
-<html class="main">
-    <br>
-    <h1>SomeFinace</h1>
-    <table style="width:100%">
-        <tr>
-            <th>FINANCIAL FREEDOM</th>
-            <th>SAVE TO SPEND</th>
-            <th>EDUCATION</th>
-            <th>PLAY</th>
-            <th>NECESSITY</th>
-            <th>CONTRIBUTION</th>
-        </tr>
-    </table>
-</html>
+<div class="content">
+    <main>
+        <div class="header">
+            <h1>SomeFinace</h1>
+            <a class="add-new" asp-controller="" asp-action="">
+                <i class='bx bx-plus'></i>
+                <span>New</span>
+            </a>
+        </div>
+
+        <!-- Insights -->
+
+        <ul class="insights">
+            <li>
+                <i class="fa-solid fa-jar"></i>
+                <span class="info">
+                    <h3>1,111</h3>
+                    <p>FINANCIAL FREEDOM</p>
+                </span>
+            </li>
+            <li>
+                <i class="fa-solid fa-jar"></i>
+                <span class="infor">
+                    <h3>1,111</h3>
+                    <p>SAVE TO SPEND</p>
+                </span>
+            </li>
+            <li>
+                <i class="fa-solid fa-jar"></i>
+                <span class="infor">
+                    <h3>1,111</h3>
+                    <p>EDUCATION</p>
+                </span>
+            </li>
+            <li>
+                <i class="fa-solid fa-jar"></i>
+                <span class="infor">
+                    <h3>1,111</h3>
+                    <p>PLAY</p>
+                </span>
+            </li>
+            <li>
+                <i class="fa-solid fa-jar"></i>
+                <span class="infor">
+                    <h3>1,111</h3>
+                    <p>NECESSITY</p>
+                </span>
+            </li>
+            <li>
+                <i class="fa-solid fa-jar"></i>
+                <span class="infor">
+                    <h3>1,111</h3>
+                    <p>CONTRIBUTION</p>
+                </span>
+            </li>
+        </ul>
+
+        <!-- End of Insights -->
+
+        
+    </main>
+</div>
+    
