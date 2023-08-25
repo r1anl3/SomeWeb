@@ -49,3 +49,4 @@
 24/08/2023: Add history, ondoing responsive code.
 25/08/2023: More responsive code.
 25/08/2023: Update to dotnet 7.
+25/08/2023: RenderBody for other View.

@@ -481,7 +481,7 @@ body {
   display: flex;
   align-items: center;
   grid-gap: 16px;
-  margin-bottom: 16px;
+  margin-bottom: 24px;
 }
 
 .content main .bottom-data .header h3 {
