@@ -46,3 +46,8 @@
 22/08/2023: Add new button, add jar id, change home page, add 6 jar color.
 22/08/2023: Add jar icon from FontAwesome, remove 6 jar color.
 23/08/2023: Remove jar id, add jar color.
+24/08/2023: Add history, ondoing responsive code.
+25/08/2023: More responsive code.
+25/08/2023: Update to dotnet 7.
+25/08/2023: RenderBody for other View.
+25/08/2023: Remove ; in RenderBody.

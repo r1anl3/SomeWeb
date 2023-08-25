@@ -1,66 +1,90 @@
 ﻿@{
     ViewData["Title"] = "Your Wallet";
 }
-<div class="content">
-    <main>
-        <div class="header">
-            <h1>SomeFinace</h1>
-            <a class="add-new" asp-controller="" asp-action="">
-                <i class='bx bx-plus'></i>
-                <span>New</span>
-            </a>
+
+<main>
+    <div class="header">
+        <h1>SomeFinace</h1>
+        <a class="add-new" asp-controller="" asp-action="">
+            <i class='bx bx-plus'></i>
+            <span>New</span>
+        </a>
+    </div>
+
+    <!-- Insights -->
+
+    <ul class="insights">
+        <li>
+            <i class="fa-solid fa-jar"></i>
+            <span class="info">
+                <h3>1,111</h3>
+                <p>FINANCIAL FREEDOM</p>
+            </span>
+        </li>
+        <li>
+            <i class="fa-solid fa-jar"></i>
+            <span class="infor">
+                <h3>1,111</h3>
+                <p>SAVE TO SPEND</p>
+            </span>
+        </li>
+        <li>
+            <i class="fa-solid fa-jar"></i>
+            <span class="infor">
+                <h3>1,111</h3>
+                <p>EDUCATION</p>
+            </span>
+        </li>
+        <li>
+            <i class="fa-solid fa-jar"></i>
+            <span class="infor">
+                <h3>1,111</h3>
+                <p>PLAY</p>
+            </span>
+        </li>
+        <li>
+            <i class="fa-solid fa-jar"></i>
+            <span class="infor">
+                <h3>1,111</h3>
+                <p>NECESSITY</p>
+            </span>
+        </li>
+        <li>
+            <i class="fa-solid fa-jar"></i>
+            <span class="infor">
+                <h3>1,111</h3>
+                <p>CONTRIBUTION</p>
+            </span>
+        </li>
+    </ul>
+
+    <!-- End of Insights -->
+
+    <div class="bottom-data">
+        <div class="activity">
+            <div class="header">
+                <i class='bx bx-history'></i>
+                <h3>History</h3>
+                <i class='bx bx-filter' ></i>
+            </div>
+            <table>
+                <thead>
+                    <tr>
+                        <th>Date</th>
+                        <th>Purpose</th>
+                        <th>Expense</th>
+                        <th>Pot type</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>24/08/2023</td>
+                        <td>Having Lunch</td>
+                        <td>70,000</td>
+                        <td>NECESSITY</td>
+                    </tr>
+                </tbody>
+            </table>
         </div>
-
-        <!-- Insights -->
-
-        <ul class="insights">
-            <li>
-                <i class="fa-solid fa-jar"></i>
-                <span class="info">
-                    <h3>1,111</h3>
-                    <p>FINANCIAL FREEDOM</p>
-                </span>
-            </li>
-            <li>
-                <i class="fa-solid fa-jar"></i>
-                <span class="infor">
-                    <h3>1,111</h3>
-                    <p>SAVE TO SPEND</p>
-                </span>
-            </li>
-            <li>
-                <i class="fa-solid fa-jar"></i>
-                <span class="infor">
-                    <h3>1,111</h3>
-                    <p>EDUCATION</p>
-                </span>
-            </li>
-            <li>
-                <i class="fa-solid fa-jar"></i>
-                <span class="infor">
-                    <h3>1,111</h3>
-                    <p>PLAY</p>
-                </span>
-            </li>
-            <li>
-                <i class="fa-solid fa-jar"></i>
-                <span class="infor">
-                    <h3>1,111</h3>
-                    <p>NECESSITY</p>
-                </span>
-            </li>
-            <li>
-                <i class="fa-solid fa-jar"></i>
-                <span class="infor">
-                    <h3>1,111</h3>
-                    <p>CONTRIBUTION</p>
-                </span>
-            </li>
-        </ul>
-
-        <!-- End of Insights -->
-
-        
-    </main>
-</div>
-    
+    </div>
+</main>
