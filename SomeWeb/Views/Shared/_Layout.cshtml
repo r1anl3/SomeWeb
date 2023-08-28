@@ -25,24 +25,24 @@
                         <i class='bx bx-home-smile'></i>Home
                     </a>
                 </li>
-                <li class="">
+                <li>
                     <a asp-controller="Category" asp-action="Index">
                         <i class='bx bx-wallet'></i>Wallet
                     </a>
                 </li>
-                <li class="">
+                <li>
                     <a asp-controller="Category" asp-action="Analyse">
                         <i class='bx bx-analyse'></i>Analytics
                     </a>
                 </li>
-                <li class="">
+                <li>
                     <a asp-controller="" asp-action="">
                         <i class='bx bx-cog'></i>Settings
                     </a>
                 </li>
             </ul>
             <ul class="side-menu">
-                <li class="">
+                <li>
                     <a class="logout" asp-controller="" asp-action="">
                         <i class='bx bx-log-out'></i>Logout
                     </a>
@@ -63,12 +63,12 @@
                 <form action="#">
                     <div class="form-input">
                         <input type="search" placeholder="Search..."> 
-                        <button class="search-btn" type="submit">
-                            <i class='bx bx-search'></i>
+                        <button class="search-btn" type="submit" aria-label="Search">
+                            <i class='bx bx-search'></i> 
                         </button>
                     </div>
                 </form>
-                <input type="checkbox" id="theme-toggle" hidden> 
+                <input type="checkbox" id="theme-toggle" hidden aria-label="Theme-toggle"> 
                 <label for="theme-toggle" class="theme-toggle"></label>
                 <a class="notify">
                     <i class='bx bx-bell'></i>
