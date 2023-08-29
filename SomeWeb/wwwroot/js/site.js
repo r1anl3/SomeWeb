@@ -2,14 +2,6 @@
 const sideBar = document.querySelector('.sidebar');
 const sideMenuItems = document.querySelectorAll('.sidebar .side-menu li a:not(.logout)');
 
-function closeSideBar() {
-    sideBar.classList.remove('active');
-}
-
 menuBar.addEventListener('click', () => {
-    sideBar.classList.toggle('active');
-});
-  
-sideMenuItems.forEach((item) => {
-    item.addEventListener('click', closeSideBar);
+    sideBar.classList.toggle('close');
 });

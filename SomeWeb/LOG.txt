@@ -53,3 +53,4 @@
 25/08/2023: Remove semicolon in RenderBody.
 28/08/2023: Remove controller from notify and profile.
 28/08/2023: Error: web keep reloading after clicking something.
+29/08/2023: Keep only close menu function.
