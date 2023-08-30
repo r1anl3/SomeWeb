@@ -5,3 +5,5 @@ const sideMenuItems = document.querySelectorAll('.sidebar .side-menu li a:not(.l
 menuBar.addEventListener('click', () => {
     sideBar.classList.toggle('close');
 });
+
+console.log(Date())
