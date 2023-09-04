@@ -4,54 +4,87 @@
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>@ViewData["Title"] - SomeWeb</title>
-    <link rel="stylesheet" href="~/lib/bootstrap/dist/css/bootstrap.min.css" />
-    <link rel="stylesheet" href="~/css/Theme.css">
     <link rel="stylesheet" href="~/css/site.css" asp-append-version="true" />
     <link rel="stylesheet" href="~/SomeWeb.styles.css" asp-append-version="true" />
     <link rel="shortcut icon" href="~/somelogo-tprr.png" type="image/x-icon">
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css" integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
 </head>
 <body>
     <header>
-        <nav class="navbar navbar-expand-lg bg-primary" data-bs-theme="dark">
-            <div class="container-fluid">
-                <a class="navbar-brand" asp-area="" asp-controller="Home" asp-action="Index">SomeWeb</a>
-                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarColor01" aria-controls="navbarColor01" aria-expanded="false" aria-label="Toggle navigation">
-                <span class="navbar-toggler-icon"></span>
-                </button>
-                <div class="collapse navbar-collapse" id="navbarColor01">
-                <ul class="navbar-nav me-auto">
-                    <li class="nav-item">
-                        <a class="nav-link text-dark" asp-area="" asp-controller="Home" asp-action="Index">Home</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link text-dark" asp-area="" asp-controller="Category" asp-action="Index">Category</a>
-                    </li>
-                    @*
-                    <li class="nav-item">
-                    <a class="nav-link" href="#">Pricing</a>
-                    </li>
-                    <li class="nav-item">
-                    <a class="nav-link" href="#">About</a>
-                    </li>
-                    <li class="nav-item dropdown">
-                    <a class="nav-link dropdown-toggle" data-bs-toggle="dropdown" href="#" role="button" aria-haspopup="true" aria-expanded="false">Dropdown</a>
-                    <div class="dropdown-menu">
-                        <a class="dropdown-item" href="#">Action</a>
-                        <a class="dropdown-item" href="#">Another action</a>
-                        <a class="dropdown-item" href="#">Something else here</a>
-                        <div class="dropdown-divider"></div>
-                        <a class="dropdown-item" href="#">Separated link</a>
+
+        <!-- Sidebar -->
+
+        <div class="sidebar">
+            <a class="logo" asp-controller="Home" asp-action="Index">
+                <i class='bx bxs-game'></i>Some <span>Web</span> 
+            </a>
+            <ul class="side-menu">
+                <li class="active">
+                    <a asp-controller="Home" asp-action="Index">
+                        <i class='bx bx-home-smile'></i>Home
+                    </a>
+                </li>
+                <li>
+                    <a asp-controller="Category" asp-action="Index">
+                        <i class='bx bx-wallet'></i>Wallet
+                    </a>
+                </li>
+                <li>
+                    <a asp-controller="Category" asp-action="Analyse">
+                        <i class='bx bx-analyse'></i>Analytics
+                    </a>
+                </li>
+                <li>
+                    <a asp-controller="" asp-action="">
+                        <i class='bx bx-cog'></i>Settings
+                    </a>
+                </li>
+            </ul>
+            <ul class="side-menu">
+                <li>
+                    <a class="logout" asp-controller="" asp-action="">
+                        <i class='bx bx-log-out'></i>Logout
+                    </a>
+                </li>
+            </ul>
+        </div>
+
+        <!-- End of Sidebar -->
+
+        <!-- Main content -->
+
+        <div class="content">
+
+            <!-- Navigation -->
+
+            <nav>
+                <i class='bx bx-menu'></i>
+                <form action="#">
+                    <div class="form-input">
+                        <input type="search" placeholder="Search..."> 
+                        <button class="search-btn" type="submit" aria-label="Search">
+                            <i class='bx bx-search'></i> 
+                        </button>
                     </div>
-                    </li>
-                    *@
-                </ul>
-                <form class="d-flex">
-                    <input class="form-control me-sm-2" type="search" placeholder="Search">
-                    <button class="btn btn-secondary my-2 my-sm-0" type="submit">Search</button>
                 </form>
-                </div>
-            </div>
-        </nav>
+                <input type="checkbox" id="theme-toggle" hidden aria-label="Theme-toggle"> 
+                <label for="theme-toggle" class="theme-toggle"></label>
+                <a class="notify">
+                    <i class='bx bx-bell'></i>
+                    <span class="count">14</span>
+                </a>
+                <a class="profile">
+                    <img src="~/sample-profile.png" alt="use-profile">
+                </a>
+            </nav>
+
+            <!-- End of Navigation -->
+            @RenderBody()
+
+        </div>
+
+        <!-- End of Main content -->
     </header>
     <div class="container">
         <main role="main" class="pb-3">
@@ -59,13 +92,15 @@
         </main>
     </div>
 
+    @*
     <footer class="border-top footer text-muted">
         <div class="container">
             &copy; 2023 - SomeWeb - <a asp-area="" asp-controller="Home" asp-action="Privacy">Privacy</a>
         </div>
     </footer>
+    *@
     <script src="~/lib/jquery/dist/jquery.min.js"></script>
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-HwwvtgBNo3bZJJLYd8oVXjrBZt8cqVSpeBNS5n7C8IVInixGAoxmnlMuBnhbgrkm" crossorigin="anonymous"></script>
     <script src="~/js/site.js" asp-append-version="true"></script>
     @await RenderSectionAsync("Scripts", required: false)
 </body>

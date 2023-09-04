@@ -1,4 +1,9 @@
-﻿// Please see documentation at https://docs.microsoft.com/aspnet/core/client-side/bundling-and-minification
-// for details on configuring this project to bundle and minify static web assets.
+﻿const menuBar = document.querySelector('.content nav .bx.bx-menu');
+const sideBar = document.querySelector('.sidebar');
+const sideMenuItems = document.querySelectorAll('.sidebar .side-menu li a:not(.logout)');
 
-// Write your JavaScript code.
+menuBar.addEventListener('click', () => {
+    sideBar.classList.toggle('close');
+});
+
+console.log(Date())

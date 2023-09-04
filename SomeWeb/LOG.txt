@@ -18,4 +18,40 @@
 19/07/2023: Still learning HTML.
 20/07/2023: Nothing changed.
 21/07/2023: Having a better look for my website.
-28/07/2023: Learn HTML in appropiate
+23/07/2023: Working with site.css file.
+28/07/2023: Learn HTML in appropiate.
+03/08/2023: Success fixing layout.
+06/08/2023: Create new table.
+07/08/2023: Change website color, change bootstrap.
+13/08/2023: Delete bootstrap min theme.
+14/08/2023: Remove background color, remove table color, add new web logo.
+14/08/2023: Fix logo, use Poppins font, change homepage paragraph, change navbar style.
+15/08/2023: Fix navbar, comment footer.
+15/08/2023: Create main class, seperate main and navbar.
+15/08/2023: Remove button.
+17/08/2023: Add body style.
+17/08/2023: Add home navigation.
+17/08/2023: Remove commented section, add logout, reformat Analyse.cshtml.
+17/08/2023: Replace all default nav class with custom class.
+17/08/2023: Add root, remove body width height.
+18/08/2023: Add small web logo, more css.
+18/08/2023: Add settings, more css.
+18/08/2023: Remove nav item class, center item in li tag.
+19/08/2023: Change font import, add logout style, add main content.
+19/08/2023: Change logo color, add search bar, add profile, change view html tag to div tag.
+19/08/2023: Change notify, theme toggle, profile style.
+22/08/2023: Change wallet site structure and style.
+22/08/2023: Change all views structure and style.
+22/08/2023: Add new button, add jar id, change home page, add 6 jar color.
+22/08/2023: Add jar icon from FontAwesome, remove 6 jar color.
+23/08/2023: Remove jar id, add jar color.
+24/08/2023: Add history, ondoing responsive code.
+25/08/2023: More responsive code.
+25/08/2023: Update to dotnet 7.
+25/08/2023: RenderBody for other View.
+25/08/2023: Remove semicolon in RenderBody.
+28/08/2023: Remove controller from notify and profile.
+28/08/2023: Error: web keep reloading after clicking something.
+29/08/2023: Keep only close menu function.
+30/08/2023: Nothing.
+30/08/2023: Problem: JS does reset on hot reloading.

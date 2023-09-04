@@ -4,4 +4,17 @@
 
 #!csharp
 
-Console.Write("Hello, World!");
+var naturalNumber = Enumerable.Range(1, 1000).ToList();
+var naturalStringBuilder = new StringBuilder();
+foreach (int item in naturalNumber)
+{
+    if (item % 2 == 0)
+    {
+        naturalStringBuilder.Append($"{item} is Even");
+    }
+    else
+    {
+        naturalStringBuilder.Append($"{item} is Odd");
+    }
+}
+Console.WriteLine(naturalStringBuilder.ToString());
