@@ -56,3 +56,4 @@
 29/08/2023: Keep only close menu function.
 30/08/2023: Nothing.
 30/08/2023: Problem: JS does reset on hot reloading.
+31/10/2023: Update token for Ubuntu.
